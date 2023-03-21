@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New User Registration</title>
+</head>
+<body>
+	<form>
+		<label for="first-name">First Name *</label>
+		<input type="text" id="first-name" name="first-name" required minlength="1" maxlength="32"><br><br>
+
+		<label for="last-name">Last Name *</label>
+		<input type="text" id="last-name" name="last-name" required minlength="1" maxlength="32"><br><br>
+
+		<label for="password">Password *</label>
+		<input type="password" id="password" name="password" required><br><br>
+
+		<label for="email">Email *</label>
+		<input type="email" id="email" name="email" required><br><br>
+
+		<label for="telephone">Telephone Number</label>
+		<input type="tel" id="telephone" name="telephone"><br><br>
+
+		<label for="homepage">Homepage URL</label>
+		<input type="url" id="homepage" name="homepage"><br><br>
+
+		<label for="birth-month">Birth Month</label>
+		<input type="month" id="birth-month" name="birth-month"><br><br>
+
+		<label for="birth-year">Birth Year</label>
+		<input type="number" id="birth-year" name="birth-year" min="1900" max="2100"><br><br>
+
+		<label for="can-email">Can we email you?</label>
+		<input type="checkbox" id="can-email" name="can-email"><br><br>
+
+		<label>Can we text you?</label><br>
+		<input type="radio" id="can-text-yes" name="can-text" value="yes">
+		<label for="can-text-yes">Yes</label><br>
+		<input type="radio" id="can-text-no" name="can-text" value="no">
+		<label for="can-text-no">No</label><br><br>
+
+		<label>Do you like our product?</label><br>
+		<input type="radio" id="product-like-1" name="product-like" value="1">
+		<label for="product-like-1">1 - Don't like it</label><br>
+		<input type="radio" id="product-like-2" name="product-like" value="2">
+		<label for="product-like-2">2</label><br>
+		<input type="radio" id="product-like-3" name="product-like" value="3">
+		<label for="product-like-3">3</label><br>
+		<input type="radio" id="product-like-4" name="product-like" value="4">
+		<label for="product-like-4">4</label><br>
+		<input type="radio" id="product-like-5" name="product-like" value="5">
+		<label for="product-like-5">5 - Love it!</label><br><br>
+
+		<input type="reset" value="Clear">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
